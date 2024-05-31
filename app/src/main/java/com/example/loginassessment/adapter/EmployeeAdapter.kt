@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.loginassessment.R
-import com.example.loginassessment.data.User
+import com.example.loginassessment.data.module.User
 
 class EmployeeAdapter(private val users: List<User>) : RecyclerView.Adapter<EmployeeAdapter.EmployeeViewHolder>() {
 
