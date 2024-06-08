@@ -21,6 +21,7 @@ object NetworkModule {
     private val api: ApiService
 
     init {
+
         val logging = HttpLoggingInterceptor().apply {
             setLevel(HttpLoggingInterceptor.Level.BODY)
         }
